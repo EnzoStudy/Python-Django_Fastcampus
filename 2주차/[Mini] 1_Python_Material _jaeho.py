@@ -5,9 +5,6 @@ PRODUCT_FILE_NAME = './PRODUCT.db'
 ORDER_FILE_NAME='./ORDER.db'
 
 
-print(1)
-print("test")
-
 def db_print(FILE_NAME):
     #DB 전체 출력을 위한 함수
     conn = sqlite3.connect(FILE_NAME)
